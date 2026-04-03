@@ -6,79 +6,76 @@
   <title>sabsa websiet</title>
 
   <meta property="og:title" content="sabisa.xyz">
-  <meta property="og:description" content="who the even">
-  <meta property="og:url" content="https://sabisa.xyz">
-  <meta property="og:type" content="website">
+  <meta property="og:description" content="WHO THE F​​​​​​​​​​U​​​​​​​​​​C​​​​​​​​​​​​K DECIDED TO OWN THIS DOMAIN">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="sabsa websiet">
-  <meta name="twitter:description" content="sdajansdkjascjaisjd">
-  
   <style>
-    body { font-family: sans-serif; padding: 20px; line-height: 1.6; color: white; background-color: black;}
-    
-    .brick-cycle {
-      width: 100px;
-      height: 100px;
-      background-size: contain;     
-      background-position: center;
+    :root {
+      --bg-color: #000;
+      --text-color: #fff;
+      --accent-gray: #1a1a1a;
+      --brick-size: 100px;
+    }
+
+    body { 
+      background: var(--bg-color); 
+      color: var(--text-color); 
+      font-family: sans-serif; 
+      padding: 20px; 
+    }
+
+    .row { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; }
+
+   .img-box {
+      background-size: contain;
       background-repeat: no-repeat;
-      animation: brickSwap 6s steps(1) infinite; 
+      background-position: center;
+      user-select: none;
+    }
+
+    .brick-cycle {
+      width: var(--brick-size);
+      height: var(--brick-size);
+      animation: brickSwap 6s steps(1) infinite;
     }
 
     @keyframes brickSwap {
-      0%   { background-image: url('bricks/brick1.png'); }
-      16%  { background-image: url('bricks/brick2.png'); }
-      33%  { background-image: url('bricks/brick3.png'); }
-      50%  { background-image: url('bricks/brick4.png'); }
-      66%  { background-image: url('bricks/brick5.png'); }
-      83%  { background-image: url('bricks/brick6.png'); }
+      0%   { background-image: url('static/bricks/brick1.png'); }
+      16%  { background-image: url('static/bricks/brick2.png'); }
+      33%  { background-image: url('static/bricks/brick3.png'); }
+      50%  { background-image: url('static/bricks/brick4.png'); }
+      66%  { background-image: url('static/bricks/brick5.png'); }
+      83%  { background-image: url('static/bricks/brick6.png'); }
     }
+    
+    .battery-icon { width: 100px; height: 50px; background-image: url("static/bricks/battery.jpg"); }
+    .bomb         { width: 200px; height: 100px; background-image: url("static/pipe.jpg"); }
+    .wy-context   { width: 200px; height: 100px; background-image: url("static/bricks/wy.png"); }
+    .wiki-context { width: 200px; height: 100px; background-image: url("static/wythwikipedia.png"); }
 
-    .i-don-fucking-kno {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
-
-    .battery-icon {
-      width: 100px;         
-      height: 50px;         
-      background-image: url("bricks/battery.jpg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      user-select: none;
-    }
-    .contextforthbrick {
-      width: 200px;         
-      height: 100px;         
-      background-image: url("bricks/wy.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      user-select: none;
-    }
-  
-    iframe { max-width: 100%; border: none; }
+    iframe { width: 100%; border: none; }
   </style>
 </head>
 <body>
 
   <h1>sab's epic website</h1>
 
-  <div class="i-don-fucking-kno">
-    <div class="brick-cycle"></div>
-    <div class="battery-icon"></div>
+  <div class="row">
+    <div class="img-box brick-cycle"></div>
+    <div class="img-box battery-icon"></div>
+    <div class="img-box bomb"></div>
   </div>
-  <p>context for wy brick:</p>
-  <div class="contextforthbrick"></div>
+
+  <p>context for wy:</p>
+  
+  <div class="row">
+    <div class="img-box wy-context"></div>
+    <div class="img-box wiki-context"></div>
+  </div>
 
   <p>pls help idk what the fuck to put here</p>
   <p>fill out dis form ples</p>
-  <br>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQhjrjI3TjC2ZnG5m5-VSWRJBaYd5LO_T9jgbWyUc13kco-A/viewform?embedded=true" width="640" height="794">loadgi</iframe>
   
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQhjrjI3TjC2ZnG5m5-VSWRJBaYd5LO_T9jgbWyUc13kco-A/viewform?embedded=true" height="800">loadgi</iframe>
+
 </body>
 </html>
