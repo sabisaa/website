@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +13,72 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="sabsa websiet">
   <meta name="twitter:description" content="sdajansdkjascjaisjd">
+  
+  <style>
+    body { font-family: sans-serif; padding: 20px; line-height: 1.6; color: white; background-color: black;}
+    
+    .brick-cycle {
+      width: 100px;
+      height: 100px;
+      background-size: contain;     
+      background-position: center;
+      background-repeat: no-repeat;
+      animation: brickSwap 6s steps(1) infinite; 
+    }
+
+    @keyframes brickSwap {
+      0%   { background-image: url('bricks/brick1.png'); }
+      16%  { background-image: url('bricks/brick2.png'); }
+      33%  { background-image: url('bricks/brick3.png'); }
+      50%  { background-image: url('bricks/brick4.png'); }
+      66%  { background-image: url('bricks/brick5.png'); }
+      83%  { background-image: url('bricks/brick6.png'); }
+    }
+
+    .i-don-fucking-kno {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .battery-icon {
+      width: 100px;         
+      height: 50px;         
+      background-image: url("bricks/battery.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      user-select: none;
+    }
+    .contextforthbrick {
+      width: 200px;         
+      height: 100px;         
+      background-image: url("bricks/wy.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      user-select: none;
+    }
+  
+    iframe { max-width: 100%; border: none; }
+  </style>
 </head>
 <body>
-  <h1>sabisa.xyz</h1>
-  pls help idk what the fuck to put here
-  fill out dis form ples
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQhjrjI3TjC2ZnG5m5-VSWRJBaYd5LO_T9jgbWyUc13kco-A/viewform?embedded=true" width="640" height="794" frameborder="0" marginheight="0" marginwidth="0">loadgig</iframe>
+
+  <h1>sab's epic website</h1>
+
+  <div class="i-don-fucking-kno">
+    <div class="brick-cycle"></div>
+    <div class="battery-icon"></div>
+  </div>
+  <p>context for wy brick:</p>
+  <div class="contextforthbrick"></div>
+
+  <p>pls help idk what the fuck to put here</p>
+  <p>fill out dis form ples</p>
+  <br>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQhjrjI3TjC2ZnG5m5-VSWRJBaYd5LO_T9jgbWyUc13kco-A/viewform?embedded=true" width="640" height="794">loadgi</iframe>
+  
 </body>
+</html>
