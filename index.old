@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>main</title>
+        <link rel="stylesheet" href="static/style.css" />
+
+        <meta property="og:title" content="sabsas dogshit website" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sabisa.xyz" />
+        <meta
+            property="og:image"
+            content="https://sabisa.xyz/static/btdgie.png"
+        />
+        <meta property="og:description" content="unfortunate" />
+    </head>
+    <body>
+        <p>hlo ma name sabsa</p>
+        <p>i live in th great argentina</p>
+        <img src="static/argentina1.gif" width="100" />
+        <img src="static/argentina2.gif" width="100" />
+        <img src="static/argentina3.gif" width="100" />
+        <p>here game i play and hav on ma steam accoun</p>
+
+        <ul>
+            <li>pc simulator (from google play)</li>
+            <li>left 4 dead 2</li>
+            <li>uhhh</li>
+            <li>other random shovelware games</li>
+            <li>mayb need for speed shift</li>
+        </ul>
+        <p>ma comptuer spec is</p>
+        <ul>
+            <li>cpu: intel i7-4770</li>
+            <li>
+                gpu: nvidia corporation gtx 650 wit external fan powered by 2
+                molex to 6 pin adapter
+            </li>
+            <li>gigabyte 240gb ssd</li>
+            <li>seagate barracuda 1tb hdd</li>
+            <li>lg 20m35 monitor</li>
+            <li>acer v206hql</li>
+            <li>fire hazard power supply</li>
+        </ul>
+        <p>frens</p>
+        <ul>
+            <li>
+                <a href="https://socket775.xyz" target="_blank">stockman50</a>
+            </li>
+            <li>other</li>
+        </ul>
+        <p>epic piracy sites</p>
+        <ul>
+            <li><a href="https://fmhy.net" target="_blank">fmhy.net</a></li>
+            <li><a href="https://steamrip.com" target="_blank">steamrip</a></li>
+            <li>
+                <a href="https://fitgirl-repacks.site" target="_blank"
+                    >fitgirl repacks</a
+                >
+            </li>
+            <li>
+                <a href="https://sabisa.xyz" target="_blank"
+                    >ma own site idk wat even</a
+                >
+            </li>
+            <li><a href="https://fmhy.net" target="_blank">fmhy.net</a></li>
+        </ul>
+        fuck you no shitty buttons we epic so we use hyperlinks
+    </body>
+</html>
